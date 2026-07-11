@@ -1,0 +1,70 @@
+.shop {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.shop-header {
+  margin-bottom: 2rem;
+}
+
+.shop-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2a2b2e;
+}
+
+.shop-header p {
+  color: #6b6f76;
+  margin: 0.25rem 0 0;
+}
+
+.state-msg {
+  color: #6b6f76;
+}
+
+.state-msg.error {
+  color: #b3261e;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.product-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: #fff;
+}
+
+.product-card h3 {
+  margin: 0 0 0.5rem;
+  color: #2a2b2e;
+}
+
+.product-card p {
+  color: #6b6f76;
+  font-size: 0.9rem;
+  min-height: 2.5em;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.price {
+  color: #da6627;
+}
+
+.stock {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #6b6f76;
+}
