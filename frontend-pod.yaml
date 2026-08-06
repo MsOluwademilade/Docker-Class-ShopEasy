@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: frontend-pod
+spec:
+  containers:
+  - name: frontend
+    image: erobhose/shopeasy-frontend
+    ports:
+    - containerPort: 8080

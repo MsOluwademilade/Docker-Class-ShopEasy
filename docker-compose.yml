@@ -61,7 +61,7 @@ services:
     image: ${DOCKERHUB_USERNAME:-shopeasy}/shopeasy-frontend:${IMAGE_TAG:-v4.3}
     # host:container
     ports:
-      - "3000:8080"
+      - "3000:4173"
     depends_on:
       backend:
         condition: service_healthy
