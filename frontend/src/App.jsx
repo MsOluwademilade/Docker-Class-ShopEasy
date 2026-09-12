@@ -27,6 +27,7 @@ export default function App() {
       <header className="shop-header">
         <h1>ShopEasy</h1>
         <p>Online shopping &amp; delivery</p>
+	<p className="promo-banner">Free delivery on every order this week</p>
       </header>
 
       {status === "loading" && <p className="state-msg">Loading products...</p>}

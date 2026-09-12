@@ -63,6 +63,12 @@
   color: #da6627;
 }
 
+.promo-banner {
+  margin-top: 0.5rem;
+  color: #2E7D32;
+  font-weight: 600;
+}
+
 .stock {
   font-weight: 400;
   font-size: 0.85rem;

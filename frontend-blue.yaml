@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-blue
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: frontend
+      version: v4.4
+  template:
+    metadata:
+      labels:
+        app: frontend
+        version: v4.4
+    spec:
+      containers:
+      - name: frontend
+        image: oluwademilade/shopeasy-frontend:v4.4
+        ports:
+        - containerPort: 8080
