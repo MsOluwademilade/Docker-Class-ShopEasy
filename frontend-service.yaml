@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector:
     app: frontend
-    version: v4.4
+    version: v4.6
   ports:
    - port: 80
      targetPort: 8080
