@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: frontend-green
 spec:
-  replicas: 8
+  replicas: 0
   selector:
     matchLabels:
       app: frontend
